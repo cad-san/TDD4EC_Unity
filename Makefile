@@ -42,7 +42,6 @@ INCLUDE_DIRS =\
   $(PROJECT_HOME_DIR)/include/HomeAutomation\
   $(PROJECT_HOME_DIR)/include/LedDriver\
   $(PROJECT_HOME_DIR)/include/util\
-  $(PROJECT_HOME_DIR)/mocks\
   
 include $(UNITY_BUILD_HOME)/MakefileWorker.mk
 

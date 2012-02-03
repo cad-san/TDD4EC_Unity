@@ -16,26 +16,7 @@
 /*-    www.renaissancesoftware.net james@renaissancesoftware.net       -*/
 /*- ------------------------------------------------------------------ -*/
 
-/* START: sprintf */
-/* START: StartingPoint */
 #include "unity_fixture.h"
-
-/* END: StartingPoint */
-/* END: sprintf */
-
-#if 0 /* START: StartingPoint */
-static void RunAllTests(void)
-{
-    RUN_TEST_GROUP(LedDriver);
-}
-#endif /* END: StartingPoint */
-
-#if 0 /* START: sprintf */
-static void RunAllTests(void)
-{
-    RUN_TEST_GROUP(sprintf);
-}
-#endif /* END: sprintf */
 
 static void RunAllTests(void)
 {
@@ -44,18 +25,9 @@ static void RunAllTests(void)
     RUN_TEST_GROUP(UnityFixture);
     RUN_TEST_GROUP(UnityCommandOptions);
     RUN_TEST_GROUP(LeakDetection);
-    RUN_TEST_GROUP(FakeTimeService);
-    RUN_TEST_GROUP(LightControllerSpy);
-    RUN_TEST_GROUP(LightScheduler);
-    RUN_TEST_GROUP(LightSchedulerInitAndCleanup);
 }
-
-/* START: StartingPoint */
-/* START: sprintf */
 
 int main(int argc, char * argv[])
 {
     return UnityMain(argc, argv, RunAllTests);
 }
-/* END: StartingPoint */
-/* END: sprintf */

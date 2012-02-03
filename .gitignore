@@ -5,3 +5,6 @@ lib/
 
 #TARGET
 TDD4EC_Unity_tests
+
+#SettingFile
+.*.swp

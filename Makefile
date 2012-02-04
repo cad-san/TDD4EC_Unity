@@ -1,7 +1,7 @@
 #This makefile makes the examples from the first few chapters with Unity test harness
 
 #Set this to @ to keep the makefile quiet
-SILENCE = #@
+SILENCE = @
 
 #---- Outputs ----#
 COMPONENT_NAME = TDD4EC_Unity
@@ -20,11 +20,9 @@ UNITY_WARNINGFLAGS = -Wall -Werror -Wswitch-default
 
 SRC_DIRS = \
 	$(PROJECT_HOME_DIR)/src/LedDriver \
-	$(PROJECT_HOME_DIR)/src/HomeAutomation \
 
 TEST_SRC_DIRS = \
 	$(PROJECT_TEST_DIR)\
-	$(PROJECT_TEST_DIR)/HomeAutomation\
 	$(PROJECT_TEST_DIR)/LedDriver\
 	$(UNITY_HOME)/unity\
 	$(UNITY_HOME)/src\

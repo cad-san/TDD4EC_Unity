@@ -8,3 +8,4 @@ TDD4EC_Unity_tests
 
 #SettingFile
 .*.swp
+.DS_Store

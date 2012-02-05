@@ -23,12 +23,13 @@ SRC_DIRS = \
 
 TEST_SRC_DIRS = \
 	$(PROJECT_TEST_DIR)\
-	$(PROJECT_TEST_DIR)/LedDriver\
+	$(PROJECT_TEST_DIR)/stdio\
 	$(UNITY_HOME)/unity\
 	$(UNITY_HOME)/src\
 	$(UNITY_HOME)/extras/fixture/src\
 	$(UNITY_HOME)/extras/fixture/test\
 
+	#$(PROJECT_TEST_DIR)/LedDriver
 MOCKS_SRC_DIRS = \
 	$(PROJECT_TEST_DIR)/mocks\
 

@@ -29,7 +29,6 @@ TEST_SRC_DIRS = \
 	$(UNITY_HOME)/extras/fixture/src\
 	$(UNITY_HOME)/extras/fixture/test\
 
-	#$(PROJECT_TEST_DIR)/LedDriver
 MOCKS_SRC_DIRS = \
 	$(PROJECT_TEST_DIR)/mocks\
 

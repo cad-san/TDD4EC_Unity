@@ -10,7 +10,7 @@ COMPONENT_NAME = TDD4EC_Unity
 UNITY_HOME = unity
 CPP_PLATFORM = Gcc
 PROJECT_HOME_DIR = .
-PROJECT_TEST_DIR = test
+PROJECT_TEST_DIR = tests
 CPP_PLATFORM = Gcc
 UNITY_BUILD_HOME = unity/extras/fixture/build
 
@@ -24,6 +24,7 @@ SRC_DIRS = \
 TEST_SRC_DIRS = \
 	$(PROJECT_TEST_DIR)\
 	$(PROJECT_TEST_DIR)/stdio\
+	$(PROJECT_TEST_DIR)/LedDriver\
 	$(UNITY_HOME)/unity\
 	$(UNITY_HOME)/src\
 	$(UNITY_HOME)/extras/fixture/src\

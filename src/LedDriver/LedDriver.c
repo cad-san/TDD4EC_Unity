@@ -28,13 +28,18 @@ static uint16_t convetLedNumberToBit(int ledNumber)
 
 void LedDriver_TurnOn(int ledNumber)
 {
-	
+	if(ledNumber <= 0 || ledNumber > 16)
+		return;	
+
 	ledsImage |= convetLedNumberToBit(ledNumber);
 	updateHardware();
 }
 
 void LedDriver_TurnOff(int ledNumber)
 {
+	if(ledNumber <= 0 || ledNumber > 16)
+		return;
+
 	ledsImage &= ~(convetLedNumberToBit(ledNumber));
 	updateHardware();
 }

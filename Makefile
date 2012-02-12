@@ -31,7 +31,7 @@ TEST_SRC_DIRS = \
 	$(UNITY_HOME)/extras/fixture/test\
 
 MOCKS_SRC_DIRS = \
-	$(PROJECT_TEST_DIR)/mocks\
+	mocks\
 
 INCLUDE_DIRS =\
   .\
